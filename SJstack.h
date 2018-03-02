@@ -20,7 +20,7 @@ public:
 	const T sPop();       // return value of last elem and delete it
 	const T sWatch();     // return value of last elem
 private:
-	TNode<T> *pTop = NULL;
+	TNode<T> *pTop = NULL;// pointer on the top element
 };
 
 template <class T>
